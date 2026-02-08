@@ -1,4 +1,4 @@
-
+# plot1.R
 data_full <- read.table("household_power_consumption.txt", header=TRUE, sep=";", na.strings="?", stringsAsFactors=FALSE)
 
 data <- subset(data_full, Date %in% c("1/2/2007", "2/2/2007"))
